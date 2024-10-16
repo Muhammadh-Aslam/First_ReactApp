@@ -15,6 +15,13 @@ function ListGroup() {
                     <li className="" key={item}>{item}</li>
                 ))}
             </ul>
+            <h1>List</h1>
+            {getMessage()}
+            <ul className="list-group">
+                {items.map((item) => (
+                    <li className="" key={item}>{item}</li>
+                ))}
+            </ul>
         </>
     )
 }
